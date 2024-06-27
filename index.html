@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parking Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Parking Assistant</h1>
+
+  <div id="distance1">Distance 1: N/A</div>
+  <div id="distance2">Distance 2: N/A</div>
+
+  <h2>Login</h2>
+  <form id="login-form">
+    <input type="text" id="username" placeholder="Username" required>
+    <input type="password" id="password" placeholder="Password" required>
+    <button type="submit">Login</button>
+  </form>
+  <div id="status"></div>
+
+  <h2>Register</h2>
+  <form id="register-form">
+    <input type="text" id="reg-username" placeholder="Username" required>
+    <input type="password" id="reg-password" placeholder="Password" required>
+    <button type="submit">Register</button>
+  </form>
+  <div id="reg-status"></div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
